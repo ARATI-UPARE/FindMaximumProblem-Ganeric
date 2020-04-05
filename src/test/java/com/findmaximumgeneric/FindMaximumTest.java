@@ -33,16 +33,33 @@ public class FindMaximumTest {
     //TC:2.2
     @Test
     public void givenMaxFloatAtSecondPosition_shouldReturnFirstPosition() {
-        FindMaximum findMaximum = new FindMaximum();
-        double maxFloat = findMaximum.findMaxFloat(10.5,30.5,20.5);
+        double maxFloat = findMax.findMaxFloat(10.5,30.5,20.5);
         Assert.assertEquals(30.5, maxFloat, 0.0);
     }
     //TC:2.3
     @Test
     public void givenMaxFloatAtThirdPosition_shouldReturnFirstPosition() {
-        FindMaximum findMaximum = new FindMaximum();
-        double maxFloat = findMaximum.findMaxFloat(10.5, 20.5, 30.5);
+        double maxFloat = findMax.findMaxFloat(10.5, 20.5, 30.5);
         Assert.assertEquals(30.5, maxFloat, 0.0);
+    }
+
+    //TC:3.1
+    @Test
+    public void givenMaxStringAtFirstPosition_shouldReturnFirstPosition() {
+        String maxString = findMax.findMaxString("peach", "apple", "banana");
+        Assert.assertEquals("peach", maxString);
+    }
+    //TC:3.2
+    @Test
+    public void givenMaxStringAtSecondPosition_shouldReturnFirstPosition() {
+        String maxString = findMax.findMaxString("apple", "peach", "banana");
+        Assert.assertEquals("peach", maxString);
+    }
+    //TC:3.3
+    @Test
+    public void givenMaxStringAtThirdPosition_shouldReturnFirstPosition() {
+        String maxString = findMax.findMaxString("apple", "banana", "peach");
+        Assert.assertEquals("peach", maxString);
     }
 }
 
