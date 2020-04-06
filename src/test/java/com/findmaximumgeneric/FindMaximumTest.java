@@ -61,6 +61,25 @@ public class FindMaximumTest {
         Comparable maxString = findMax.findMaximum("apple", "banana", "peach");
         Assert.assertEquals("peach", maxString);
     }
+    // TC: 4.1
+    @Test
+    public void givenMoreThanThreeInteger_shouldReturnMaximumInteger() {
+        Comparable maximumValue = findMax.findMaximum(10, 20, 30, 40, 50);
+        Assert.assertEquals(50, maximumValue);
+        System.out.println("Maximum value: " + maximumValue);
+    }
+    // TC: 4.2
+    @Test
+    public void givenMoreThanThreeFloats_shouldReturnMaximumFloat() {
+        Comparable maximumValue = findMax.findMaximum(5.5, 2.5, 3.5, 4.5, 1.5);
+        Assert.assertEquals(5.5, maximumValue);
+    }
+    // TC: 4.3
+    @Test
+    public void givenMoreThanThreeStrings_shouldReturnMaximumString() {
+        Comparable maximumValue = findMax.findMaximum("apple", "banana", "peach", "strawberry", "mango");
+        Assert.assertEquals("strawberry", maximumValue);
+    }
 }
 
 

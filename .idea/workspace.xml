@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d59c2f-ac57-4f93-bedf-2f9508021d83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,12 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-              <folding>
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -65,10 +63,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="702" />
-    <option name="y" value="13" />
-    <option name="width" value="665" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="551" />
+    <option name="y" value="4" />
+    <option name="width" value="821" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -81,7 +79,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586149317226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586178825488" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -116,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaximumTest.givenMaxFloatAtThirdPosition_shouldReturnFirstPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMaximumTest.givenMaxValueAtAnyPosition_shouldReturnMaxValuePosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FindMaximum.test" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +124,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.findmaximumgeneric" />
       <option name="MAIN_CLASS_NAME" value="com.findmaximumgeneric.FindMaximumTest" />
-      <option name="METHOD_NAME" value="givenMaxFloatAtThirdPosition_shouldReturnFirstPosition" />
+      <option name="METHOD_NAME" value="givenMaxValueAtAnyPosition_shouldReturnMaxValuePosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaximumTest.givenMaxStringAtFirstPosition_shouldReturnFirstPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMaximumTest.givenMaxValueAtFirstPosition_shouldReturnFirstPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FindMaximum.test" />
       <extension name="coverage">
         <pattern>
@@ -142,13 +140,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.findmaximumgeneric" />
       <option name="MAIN_CLASS_NAME" value="com.findmaximumgeneric.FindMaximumTest" />
-      <option name="METHOD_NAME" value="givenMaxStringAtFirstPosition_shouldReturnFirstPosition" />
+      <option name="METHOD_NAME" value="givenMaxValueAtFirstPosition_shouldReturnFirstPosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaximumTest.givenMaxStringAtSecondPosition_shouldReturnFirstPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMaximumTest.givenMoreThanThreeFloats_shouldReturnMaximumFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FindMaximum.test" />
       <extension name="coverage">
         <pattern>
@@ -158,13 +156,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.findmaximumgeneric" />
       <option name="MAIN_CLASS_NAME" value="com.findmaximumgeneric.FindMaximumTest" />
-      <option name="METHOD_NAME" value="givenMaxStringAtSecondPosition_shouldReturnFirstPosition" />
+      <option name="METHOD_NAME" value="givenMoreThanThreeFloats_shouldReturnMaximumFloat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaximumTest.givenMaxStringAtThirdPosition_shouldReturnFirstPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMaximumTest.givenMoreThanThreeStrings_shouldReturnMaximumString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FindMaximum.test" />
       <extension name="coverage">
         <pattern>
@@ -174,7 +172,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.findmaximumgeneric" />
       <option name="MAIN_CLASS_NAME" value="com.findmaximumgeneric.FindMaximumTest" />
-      <option name="METHOD_NAME" value="givenMaxStringAtThirdPosition_shouldReturnFirstPosition" />
+      <option name="METHOD_NAME" value="givenMoreThanThreeStrings_shouldReturnMaximumString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,10 +181,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FindMaximumTest" />
-        <item itemvalue="JUnit.FindMaximumTest.givenMaxFloatAtThirdPosition_shouldReturnFirstPosition" />
-        <item itemvalue="JUnit.FindMaximumTest.givenMaxStringAtThirdPosition_shouldReturnFirstPosition" />
-        <item itemvalue="JUnit.FindMaximumTest.givenMaxStringAtSecondPosition_shouldReturnFirstPosition" />
-        <item itemvalue="JUnit.FindMaximumTest.givenMaxStringAtFirstPosition_shouldReturnFirstPosition" />
+        <item itemvalue="JUnit.FindMaximumTest.givenMoreThanThreeFloats_shouldReturnMaximumFloat" />
+        <item itemvalue="JUnit.FindMaximumTest.givenMoreThanThreeStrings_shouldReturnMaximumString" />
+        <item itemvalue="JUnit.FindMaximumTest.givenMaxValueAtAnyPosition_shouldReturnMaxValuePosition" />
+        <item itemvalue="JUnit.FindMaximumTest.givenMaxValueAtFirstPosition_shouldReturnFirstPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -204,47 +202,48 @@
       <workItem from="1586079046934" duration="4619000" />
       <workItem from="1586107640245" duration="1975000" />
       <workItem from="1586110475915" duration="601000" />
-      <workItem from="1586146507977" duration="2747000" />
+      <workItem from="1586146507977" duration="3402000" />
+      <workItem from="1586177047552" duration="1724000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindMaximumTest_givenMaxFloatAtThirdPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 18m 27s.xml">
-      <configuration name="FindMaximumTest.givenMaxFloatAtThirdPosition_shouldReturnFirstPosition" configurationId="JUnit" />
+    <history-entry file="FindMaximumTest_givenMaxValueAtFirstPosition_shouldReturnFirstPosition - 2020.04.06 at 18h 25m 18s.xml">
+      <configuration name="FindMaximumTest.givenMaxValueAtFirstPosition_shouldReturnFirstPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMaximumTest_givenMaxStringAtFirstPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 19m 11s.xml">
-      <configuration name="FindMaximumTest.givenMaxStringAtFirstPosition_shouldReturnFirstPosition" configurationId="JUnit" />
+    <history-entry file="FindMaximumTest_givenMaxValueAtFirstPosition_shouldReturnFirstPosition - 2020.04.06 at 18h 26m 02s.xml">
+      <configuration name="FindMaximumTest.givenMaxValueAtFirstPosition_shouldReturnFirstPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMaximumTest_givenMaxStringAtSecondPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 19m 30s.xml">
-      <configuration name="FindMaximumTest.givenMaxStringAtSecondPosition_shouldReturnFirstPosition" configurationId="JUnit" />
+    <history-entry file="FindMaximumTest_givenMaxValueAtFirstPosition_shouldReturnFirstPosition - 2020.04.06 at 18h 26m 20s.xml">
+      <configuration name="FindMaximumTest.givenMaxValueAtFirstPosition_shouldReturnFirstPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMaximumTest_givenMaxStringAtThirdPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 19m 41s.xml">
-      <configuration name="FindMaximumTest.givenMaxStringAtThirdPosition_shouldReturnFirstPosition" configurationId="JUnit" />
+    <history-entry file="FindMaximumTest_givenMaxValueAtAnyPosition_shouldReturnMaxValuePosition - 2020.04.06 at 18h 27m 31s.xml">
+      <configuration name="FindMaximumTest.givenMaxValueAtAnyPosition_shouldReturnMaxValuePosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMaximumTest - 2020.04.05 at 23h 24m 57s.xml">
+    <history-entry file="FindMaximumTest_givenMoreThanThreeStrings_shouldReturnMaximumString - 2020.04.06 at 18h 35m 51s.xml">
+      <configuration name="FindMaximumTest.givenMoreThanThreeStrings_shouldReturnMaximumString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMaximumTest_givenMoreThanThreeStrings_shouldReturnMaximumString - 2020.04.06 at 18h 36m 17s.xml">
+      <configuration name="FindMaximumTest.givenMoreThanThreeStrings_shouldReturnMaximumString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMaximumTest_givenMoreThanThreeStrings_shouldReturnMaximumString - 2020.04.06 at 18h 36m 35s.xml">
+      <configuration name="FindMaximumTest.givenMoreThanThreeStrings_shouldReturnMaximumString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMaximumTest - 2020.04.06 at 18h 42m 12s.xml">
       <configuration name="FindMaximumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMaximumTest_givenMaxStringAtThirdPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 26m 54s.xml">
-      <configuration name="FindMaximumTest.givenMaxStringAtThirdPosition_shouldReturnFirstPosition" configurationId="JUnit" />
+    <history-entry file="FindMaximumTest_givenMoreThanThreeFloats_shouldReturnMaximumFloat - 2020.04.06 at 18h 42m 53s.xml">
+      <configuration name="FindMaximumTest.givenMoreThanThreeFloats_shouldReturnMaximumFloat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMaximumTest_givenMaxStringAtThirdPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 28m 43s.xml">
-      <configuration name="FindMaximumTest.givenMaxStringAtThirdPosition_shouldReturnFirstPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindMaximumTest_givenMaxFloatAtThirdPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 28m 57s.xml">
-      <configuration name="FindMaximumTest.givenMaxFloatAtThirdPosition_shouldReturnFirstPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindMaximumTest - 2020.04.05 at 23h 30m 29s.xml">
-      <configuration name="FindMaximumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindMaximumTest - 2020.04.06 at 10h 07m 43s.xml">
+    <history-entry file="FindMaximumTest - 2020.04.06 at 18h 43m 07s.xml">
       <configuration name="FindMaximumTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11465000" />
+    <option name="totallyTimeSpent" value="13844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="551" y="4" width="821" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
@@ -256,7 +255,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32718122" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,8 +285,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -296,12 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
