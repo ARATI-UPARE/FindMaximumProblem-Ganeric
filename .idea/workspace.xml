@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d59c2f-ac57-4f93-bedf-2f9508021d83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java" afterDir="false" />
     </list>
@@ -21,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="326">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -73,43 +74,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FindMaximum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindMaximum" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindMaximum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindMaximum" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindMaximum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindMaximum" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="FindMaximum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FindMaximum" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586109680102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586147974393" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -231,13 +201,12 @@
       <workItem from="1585997614280" duration="1523000" />
       <workItem from="1586079046934" duration="4619000" />
       <workItem from="1586107640245" duration="1975000" />
+      <workItem from="1586110475915" duration="601000" />
+      <workItem from="1586146507977" duration="1416000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindMaximumTest_givenMaxIntegerAtThirdPosition_shouldReturnThirdPosition - 2020.04.05 at 16h 44m 25s.xml">
-      <configuration name="FindMaximumTest.givenMaxIntegerAtThirdPosition_shouldReturnThirdPosition" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FindMaximumTest_givenMaxFloatAtThirdPosition_shouldReturnFirstPosition - 2020.04.05 at 23h 18m 27s.xml">
       <configuration name="FindMaximumTest.givenMaxFloatAtThirdPosition_shouldReturnFirstPosition" configurationId="JUnit" />
     </history-entry>
@@ -265,9 +234,12 @@
     <history-entry file="FindMaximumTest - 2020.04.05 at 23h 30m 29s.xml">
       <configuration name="FindMaximumTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FindMaximumTest - 2020.04.06 at 10h 07m 43s.xml">
+      <configuration name="FindMaximumTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8117000" />
+    <option name="totallyTimeSpent" value="10134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -310,20 +282,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="326">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
         </state>
       </provider>
     </entry>

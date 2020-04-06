@@ -1,49 +1,35 @@
 package com.findmaximumgeneric;
+
 // WELCOME To Find Maximum Number using GENERIC
-public class FindMaximum {
+public class FindMaximum < V extends Comparable <V> >{
 
-    // Default Constructor
-    public FindMaximum(){
+        // Class Parameters
+        V firstValue;
+        V secondValue;
+        V thirdValue;
 
-    }
-    // Method to find Maximum IntegerNumber
-    public static int findMaxInteger(int no1, int no2, int no3) {
+        // Default Constructor
+        public FindMaximum(){
+        }
+        // Paramerized Constructor
+        public FindMaximum(V firstValue, V secondValue, V thirdValue){
+            this.firstValue=firstValue;
+            this.secondValue=secondValue;
+            this.thirdValue=thirdValue;
+        }
 
-        int maxInt = 0;
-        if (no1 > no2 && no1 > no3) {
-            return maxInt = no1;
+        // Generic Method to find Maximum Value
+        public V findMaximum (V firstValue, V secondValue, V thirdValue){
+            V maxValue = firstValue;
+            if( secondValue.compareTo(maxValue) > 0) {
+                maxValue = secondValue;
+            }
+            if( thirdValue.compareTo(maxValue) > 0) {
+                maxValue = thirdValue;
+            }
+            return maxValue;
         }
-        if (no2 > no1 && no2 > no3) {
-            return maxInt = no2;
-        }
-            return maxInt = no3;
-    }
-
-    // Method to find Maximum Float Number
-    public static double findMaxFloat(double fNo1, double fNo2, double fNo3) {
-
-        double maxFloat= 0.0;
-        if (fNo1 > fNo2 && fNo1 > fNo3) {
-            return maxFloat = fNo1;
-        }
-        if (fNo2 > fNo1 && fNo2 > fNo3) {
-            return maxFloat = fNo2;
-        }
-            return maxFloat = fNo3;
-    }
-
-    // Method to find Maximum String
-    public String findMaxString(String str1, String str2, String str3) {
-        String maxString =  str1;
-        if( str2.compareTo(maxString) > 0) {
-             maxString = str2;
-        }
-        if( str3.compareTo(maxString) > 0) {
-             maxString = str3;
-        }
-        return maxString;
-    }
-}
+}                                                             //EOC
 
 
 
