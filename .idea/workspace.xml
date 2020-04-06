@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91d59c2f-ac57-4f93-bedf-2f9508021d83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/findmaximumgeneric/FindMaximumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,8 +35,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+            <state relative-caret-position="241">
+              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+              <folding>
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +81,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586147974393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586149317226" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -202,7 +204,7 @@
       <workItem from="1586079046934" duration="4619000" />
       <workItem from="1586107640245" duration="1975000" />
       <workItem from="1586110475915" duration="601000" />
-      <workItem from="1586146507977" duration="1416000" />
+      <workItem from="1586146507977" duration="2747000" />
     </task>
     <servers />
   </component>
@@ -239,7 +241,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10134000" />
+    <option name="totallyTimeSpent" value="11465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -294,8 +296,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/findmaximumgeneric/FindMaximum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        <state relative-caret-position="241">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

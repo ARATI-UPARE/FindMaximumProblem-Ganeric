@@ -19,7 +19,7 @@ public class FindMaximum < V extends Comparable <V> >{
         }
 
         // Generic Method to find Maximum Value
-        public V findMaximum (V firstValue, V secondValue, V thirdValue){
+        public  V findMaximum (V firstValue, V secondValue, V thirdValue){
             V maxValue = firstValue;
             if( secondValue.compareTo(maxValue) > 0) {
                 maxValue = secondValue;
@@ -28,6 +28,12 @@ public class FindMaximum < V extends Comparable <V> >{
                 maxValue = thirdValue;
             }
             return maxValue;
+        }
+
+        // Internally call findMaximum
+        public <V extends Comparable<V>> V findMaximum()
+        {
+            return (V) findMaximum(firstValue,secondValue,thirdValue);
         }
 }                                                             //EOC
 
