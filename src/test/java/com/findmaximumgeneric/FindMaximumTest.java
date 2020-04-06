@@ -66,7 +66,6 @@ public class FindMaximumTest {
     public void givenMoreThanThreeInteger_shouldReturnMaximumInteger() {
         Comparable maximumValue = findMax.findMaximum(10, 20, 30, 40, 50);
         Assert.assertEquals(50, maximumValue);
-        System.out.println("Maximum value: " + maximumValue);
     }
     // TC: 4.2
     @Test
